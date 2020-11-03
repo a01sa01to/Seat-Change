@@ -1,4 +1,5 @@
 import {settings} from "./settings";
+import {shuffle,sleep} from './functions'
 const $ = require('jquery');
 
 window.addEventListener('DOMContentLoaded', ()=>{
@@ -12,7 +13,7 @@ window.addEventListener('DOMContentLoaded', ()=>{
         tr.appendChild(td);
       }
       else if(i!==0){
-        let num = i*7 + j - 6;
+        let num = (i-1)*settings.col + j + 1;
         num = (num <= settings.people) ? num : null;
         td.innerText = num;
         if(num){ $('select').append(`<option value="${num}">${num}</option>`); }
