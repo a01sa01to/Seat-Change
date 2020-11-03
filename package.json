@@ -1,0 +1,29 @@
+{
+  "name": "seat-change",
+  "version": "1.0.0",
+  "description": "Seat Change System",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jquery": "^3.5.1",
+    "webpack": "^5.3.2"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a01sa01to/Seat-Change.git"
+  },
+  "author": "Asa <npm@a01sa01to.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/a01sa01to/Seat-Change/issues"
+  },
+  "homepage": "https://github.com/a01sa01to/Seat-Change#readme"
+}
