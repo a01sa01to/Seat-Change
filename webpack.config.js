@@ -9,6 +9,6 @@ module.exports = {
     path: path.resolve(__dirname),
     filename: 'bundle.js'
   },
-  // mode: 'production'
-  mode: 'development'
+  mode: 'production'
+  // mode: 'development'
 }
