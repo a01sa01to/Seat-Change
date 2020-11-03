@@ -44,6 +44,6 @@ window.addEventListener('DOMContentLoaded', ()=>{
   });
 
   $('button#code').on('click',()=>{
-    prompt('Copy the Code below!', document.querySelector('html').outerHTML);
+    prompt('以下のHTMLコードをコピーしてください。', document.querySelector('html').outerHTML);
   });
 });
