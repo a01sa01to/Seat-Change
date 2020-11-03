@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Seat Change System</title>
+  <meta http-equiv="Content-Type" cotent="text/html;charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="./bundle.js" defer></script>
+</head>
+
+<body>
+  <main>
+    <table></table>
+    <ul>
+      <li>番号は出席番号です。</li>
+      <li>シャッフル後での前後間の交換は不可です。先に言ってください。</li>
+    </ul>
+    <div class="menu">
+      <button id="shuffleCounterConfirm">SHUFFLE</button> x
+      <input type="number" id="counter" style="width: 50px;" value="1" min="1"> ;
+      <i id="frontPpl">FRONT:</i>
+      (
+      <select id="frontPpl"></select>
+      <button id="frontPpl">Add</button>
+      )
+      ;
+      <button id="code">Save</button>
+    </div>
+  </main>
+</body>
+
+</html>
