@@ -1,0 +1,56 @@
+@import url("./fonts/font.css");
+
+*{
+  box-sizing: border-box;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+html,body{
+  padding: 0;
+  margin: 0;
+}
+
+main{
+  width: 100vw;
+  height: 100vh;
+  padding: 5vh 0;
+}
+
+table{
+  width: 90vw;
+  height: 80vh;
+  margin: auto;
+  text-align: center;
+  vertical-align: middle;
+  border-collapse: collapse;
+
+  td{
+    font-size: 2vw;
+    border: #000 solid 0.5px;
+  }
+}
+
+ul {
+  text-align: center;
+  list-style: none;
+
+  li{
+    padding: 0;
+    font-size: 24px;
+  }
+}
+
+div.menu{
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 100vmax;
+  padding: 8px 16px;
+  text-align: center;
+
+  *{
+    margin: 0px 8px;
+  }
+}
